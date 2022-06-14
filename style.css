@@ -38,6 +38,15 @@ aside{
     align-items: center;
 }
 
+.credit{
+    position: relative;
+    top: 84vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
 .moon{
     height: 10vh;
 }
@@ -113,13 +122,13 @@ button{
     margin: 40px 0;
 }
 
-a{
+.login{
     text-decoration: none;
     color: var(--color);
     font-weight: 700;
 }
 
-a:hover{
+.login:hover{
     color: white;
 }
 
